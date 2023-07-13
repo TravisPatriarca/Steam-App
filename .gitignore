@@ -1,0 +1,6 @@
+.idea
+server/built
+server/node_modules
+server/src/firebase.ts
+client/node_modules
+client/src/firebase.ts

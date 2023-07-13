@@ -1,0 +1,25 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "plugins": [
+        "@typescript-eslint"
+    ],
+    "rules": {
+        "quotes": ["error", "backtick"],
+        "comma-dangle": ["error", {
+            "objects": "always-multiline"
+        }],
+        "object-curly-spacing": ["error", "always"],
+        "indent": ["error", 2]
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && nodemon built/test.js",
+    "build": "tsc",
+    "start": "tsc && node built/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.44.0",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "firebase": "^9.23.0"
+  }
+}
